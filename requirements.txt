@@ -2,3 +2,4 @@ torch~=2.9.1
 fastapi~=0.121.2
 pydantic~=2.12.4
 transformers~=4.57.1
+uvicorn>=0.15.0
