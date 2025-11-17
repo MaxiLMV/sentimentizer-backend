@@ -23,7 +23,7 @@ app.add_middleware(
 )
 
 # loads the pre-trained model and tokenizer
-model_name = "cardiffnlp/twitter-roberta-base-sentiment-latest"
+model_name = "j-hartmann/emotion-english-distilroberta-base"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 
